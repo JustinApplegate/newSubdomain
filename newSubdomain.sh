@@ -1,6 +1,11 @@
 #!/bin/bash
 # Running this script will automate creating a new subdomain
 
+if [$1==""]
+then
+    exit 1
+fi
+
 SUBDOMAIN=$1".justinapplegate.me"
 
 echo "Creating " $SUBDOMAIN "..."
