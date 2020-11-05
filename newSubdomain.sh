@@ -3,7 +3,7 @@
 
 SUBDOMAIN=$1".justinapplegate.me"
 
-echo $SUBDOMAIN
+echo "Creating " $SUBDOMAIN "..."
 
 sudo touch /etc/nginx/sites-available/$SUBDOMAIN
 
@@ -31,3 +31,5 @@ sudo service nginx reload
 touch /var/www/$SUBDOMAIN/index.html
 
 echo "This is the landing page" > /var/www/$SUBDOMAIN/index.html
+
+echo $SUBDOMAIN "created"
