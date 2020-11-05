@@ -3,6 +3,7 @@
 
 if [ -z $1 ]
 then
+    echo "Error - no subdomain specified. Exiting"
     exit 1
 fi
 
