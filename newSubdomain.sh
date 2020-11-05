@@ -9,7 +9,7 @@ fi
 
 SUBDOMAIN=$1".justinapplegate.me"
 
-echo "Creating " $SUBDOMAIN "..."
+echo "Creating" $SUBDOMAIN "..."
 
 sudo touch /etc/nginx/sites-available/$SUBDOMAIN
 

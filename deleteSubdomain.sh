@@ -9,7 +9,7 @@ fi
 
 SUBDOMAIN=$1".justinapplegate.me"
 
-echo "Deleting " $SUBDOMAIN "..."
+echo "Deleting" $SUBDOMAIN "..."
 
 sudo rm /etc/nginx/sites-available/$SUBDOMAIN
 
