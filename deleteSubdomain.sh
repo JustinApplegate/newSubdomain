@@ -1,7 +1,7 @@
 #!/bin/bash
 # Running this script will delete a current subdomain
 
-if [$1==""]
+if [$1=""]
 then
     exit 1
 fi
